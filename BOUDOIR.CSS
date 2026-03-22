@@ -1,0 +1,109 @@
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+body {
+    background-color: #ffffff;
+}
+
+#nav{
+    background-color: #000000;
+    padding: 40px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "pt serif", serif;
+    font-weight: 400; 
+    font-size: 30px;
+    display: flex;
+    align-items: center;     
+    justify-content: space-between;
+   }
+
+#menu-btn, #a2, #a4, #a5{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#a3{
+    cursor: pointer;
+}
+
+/* 버튼 느낌 */
+#menu-btn, #close-btn {
+    cursor: pointer;
+}
+
+/* 사이드바 */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -400px; /* 숨김 */
+    width: 300px;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+/* 열렸을 때 */
+#sidebar.active {
+    left: 0;
+}
+
+#bag1, #bag2, #bag3{
+    background-color: #e9e9e9;
+    border: 0.5px solid #222222;
+    margin: 40px;
+    padding: 20px;
+    width: fit-content;
+}
+
+#footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "pt serif", serif;
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+    gap: 100px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;  /* 핵심 */
+}
+
+footer{
+background-color: #000000;
+padding: 20px;
+color: #ffffff;
+font-family: "pt serif", serif;
+text-align: center;
+}
+
+h2{
+    margin: 0 auto;
+}

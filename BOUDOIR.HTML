@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUDOIR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="BOUDOIR.CSS"/>
+
+</head>
+<body>
+    <div id="nav">
+        <div id="menu-btn">네비게이션</div>
+        <div id="a2"><section id="Search" style="cursor:pointer;">검색</section></div>
+        <div id="a3"><section id="BOUDOIR" style="cursor:pointer;"><h2>BOUDOIR</h2></section></div>
+        <div id="a4"><section id="USER" style="cursor:pointer;">사용자</section></div>
+        <div id="a5"><section id="shopping basket" style="cursor:pointer;">장바구니</section></div>
+    </div>
+
+    <script>
+        document.getElementById('USER').addEventListener('click', function() {
+                window.location.href = 'User.html';
+                    });
+
+            document.getElementById('BOUDOIR').addEventListener('click', function() {
+                window.location.href = 'BOUDOIR.html';
+                    });
+
+            document.getElementById('shopping basket').addEventListener('click', function() {
+                window.location.href = 'shopping basket.html';
+                    });
+            
+    </script>
+        
+
+<!-- 
+    <script src="BOUDOIR.JS"></script> -->
+
+    <div id="sidebar">
+        <div id="close-btn"> ✕ 닫기</div>
+        <div id="Gift">Gift Selection</div>
+        <div id="NEW">NEW</div>
+        <div id="WOMEN">WOMEN</div>
+        <div id="MEN">MEN</div>
+    </div>
+
+    <div id="bag-product">
+        <div id="bag1"><img src="IMG/b1.png" height="400">
+        <br>Boudior Bow bag small<br>
+        $5,900,000<br>
+        </div>
+
+        <div id="bag2"><img src="IMG/b2.png" height="400">
+        <br>Boudior Toujours Large Bag<br>
+        $10,000,000<br>
+        </div>
+
+        <div id="bag3"><img src="IMG/b3.png" height="400">
+        <br>Soft Boudior Groove 25 Bag<br>
+        $4,600,000<br>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            부두아 소셜미디어
+            <a href="https://www.instagram.com/netflixkr/?hl=ko" target="_blank">Instagram</a>
+            <a href="https://x.com/NetflixKR" target="_blank">X</a>
+            <a href="https://www.facebook.com/NetflixKR/?locale=ko_KR" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/channel/UCiEEF51uRAeZeCo8CJFhGWw" target="_blank">YouTube</a>
+        </div>
+        <h1>BOUDOIR</h1>
+    </footer>
+
+</body>
+</html>
